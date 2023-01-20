@@ -15,8 +15,9 @@ sampwidth = 2  # 采样宽度2bytes
 FILEPATH = './音频2/secret1.wav'
 
 base_url = "https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=%s&client_secret=%s"
-APIKey = "WT4ZkmPc8hK6UY25BN1vkgZE"
-SecretKey = "gHgptPzxYGokaUmlD6oUyOkOF4FR7hRS"
+# 百度语音识别API需申请，将所得密钥替换APIKey和SecretKey
+APIKey = "*******"
+SecretKey = "*******"
 
 HOST = base_url % (APIKey, SecretKey)
 
